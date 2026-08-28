@@ -9,7 +9,7 @@ function H12() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:ExtraBold',sans-serif] font-extrabold justify-center leading-[0] relative shrink-0 text-[#424242] text-[16px] w-full">
         <p className="leading-[22px]">
-          SafeGuard Insurance General Insurance Company Limited,
+          ShieldCove Insurance General Insurance Company Limited,
         </p>
       </div>
     </div>
@@ -50,7 +50,7 @@ function PEmailPara() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative min-w-0 shrink text-[#212121] text-[14px]">
         <p className="leading-[20px] break-all">
-          Email-customersupport@safeguardinsurance.com
+          Email-customersupport@shieldcove-insurance.example
         </p>
       </div>
     </div>
@@ -114,7 +114,7 @@ function AIcon() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip top-0 w-[24px]"
-      href="https://www.facebook.com/SafeGuardInsurance"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a.icon"
     >
@@ -166,7 +166,7 @@ function AIcon1() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip top-0 w-[24px]"
-      href="https://www.instagram.com/safeguardinsurance"
+      href="https://www.instagram.com/"
       target="_blank"
       data-name="a.icon"
     >
@@ -248,7 +248,7 @@ function AIcon2() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://twitter.com/SafeGuardIns"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a.icon"
     >
@@ -300,7 +300,7 @@ function AIcon3() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.youtube.com/@safeguardinsurance"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a.icon"
     >
@@ -352,7 +352,7 @@ function AIcon4() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.linkedin.com/company/safeguard-insurance"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a.icon"
     >
@@ -437,7 +437,7 @@ function SpanAppLabel() {
       data-name="span.app-label"
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:ExtraBold',sans-serif] font-extrabold justify-center leading-[0] relative shrink-0 text-[#212121] text-[18px]">
-        <p className="leading-[20px]">SafeGuard App</p>
+        <p className="leading-[20px]">ShieldCove App</p>
       </div>
     </div>
   )
@@ -783,7 +783,7 @@ function Ul13() {
                 target="_blank"
               >
                 <p className="cursor-pointer leading-[normal]">
-                  SafeGuard Bharat Griha Raksha Policy
+                  ShieldCove Bharat Griha Raksha Policy
                 </p>
               </a>
             </div>
@@ -1195,7 +1195,7 @@ function Ul15() {
                 target="_blank"
               >
                 <p className="cursor-pointer leading-[normal]">
-                  SafeGuard Insurance Product List
+                  ShieldCove Insurance Product List
                 </p>
               </a>
             </div>
@@ -1923,7 +1923,7 @@ function P8() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#424242] text-[14px] w-full">
         <p className="leading-[20px] mb-0">
-          SafeGuard Insurance General Insurance Company Ltd. is one of the
+          ShieldCove Insurance General Insurance Company Ltd. is one of the
           leading private sector general insurance company in India offering
           insurance coverage for motor, health, travel, home, student travel and
           more.
@@ -1945,9 +1945,9 @@ function P9() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#424242] text-[14px] w-full">
         <p className="leading-[20px] mb-0">
-          SafeGuard trade logo displayed above belongs to SafeGuard Bank and is
-          used by SafeGuard Insurance GIC Ltd. under license and SafeGuardIpsum
-          logo belongs to SafeGuard Insurance GIC Ltd. Insurance is the subject
+          ShieldCove trade logo displayed above belongs to ShieldCove Bank and is
+          used by ShieldCove Insurance GIC Ltd. under license and ShieldCoveIpsum
+          logo belongs to ShieldCove Insurance GIC Ltd. Insurance is the subject
           matter of the
         </p>
         <p className="leading-[20px] mb-0">
@@ -1970,7 +1970,7 @@ function PCopyright() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink min-w-0 text-[#757575] text-[13px]">
         <p className="leading-[20px]">
-          © 2026 SafeGuard Insurance General Insurance Company Ltd. All rights
+          © 2026 ShieldCove Insurance General Insurance Company Ltd. All rights
           reserved.
         </p>
       </div>

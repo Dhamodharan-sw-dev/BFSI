@@ -1,4 +1,4 @@
-# SafeGuard Insurance
+# ShieldCove Insurance
 
 A responsive car insurance marketing site built with React 19, Vite, and Tailwind CSS v4.
 

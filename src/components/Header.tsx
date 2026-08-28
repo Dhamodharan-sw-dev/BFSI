@@ -1,4 +1,3 @@
-import imgInsuranceLogo from "../assets/3fbd36ec349795727b3a9398e43951e8d75c809f.png"
 function ALoginRevampClick({ onClick }: { onClick: () => void }) {
   return (
     <div
@@ -33,15 +32,38 @@ function Frame6({ onLoginClick }: { onLoginClick: () => void }) {
   return (
     <div className="content-stretch flex flex-[1_0_0] h-full items-center justify-between min-w-px pr-4 sm:pr-6 md:pr-[48px] relative">
       <div
-        className="h-[49px] relative shrink-0 w-[180px]"
+        className="h-[49px] relative shrink-0 w-[180px] flex items-center gap-[8px]"
         data-name="Insurance Logo"
       >
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img
-            alt=""
-            className="absolute h-[367.35%] left-0 max-w-none top-[-136.73%] w-full"
-            src={imgInsuranceLogo}
+        <svg
+          className="shrink-0"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+        >
+          <path
+            d="M16 2 L28 7 V15 C28 22 23 27 16 30 C9 27 4 22 4 15 V7 Z"
+            fill="#ffffff"
+            fillOpacity="0.15"
+            stroke="#ffffff"
+            strokeWidth="2"
           />
+          <path
+            d="M11 16 L14.5 19.5 L21 12"
+            stroke="#ffffff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <div className="flex flex-col justify-center leading-none">
+          <span className="font-['Mulish:Bold',sans-serif] font-bold text-white text-[16px] leading-[18px]">
+            ShieldCove
+          </span>
+          <span className="font-['Mulish:Regular',sans-serif] font-normal text-white text-[11px] leading-[14px] tracking-[0.5px]">
+            Insurance
+          </span>
         </div>
       </div>
       <div className="relative shrink-0" data-name="Component 5">

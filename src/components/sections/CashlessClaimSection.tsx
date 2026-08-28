@@ -25,7 +25,7 @@ function PText86() {
           Accidents can be stressful, but filing a{" "}
           <a
             className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624] underline cursor-pointer"
-            href="https://www.safeguardinsurance.com/motor-insurance/car-insurance/cashless-car-insurance"
+            href="https://www.google.com/"
             target="_blank"
           >
             cashless car insurance
@@ -58,7 +58,7 @@ function PText87() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] w-full">
         <p className="leading-[24px] mb-0">
-          Inform us about the accident via website, SafeGuard app, toll-free
+          Inform us about the accident via website, ShieldCove app, toll-free
           number 1856 1234 or WhatsApp: 7738282666. Share basic details like
         </p>
         <p className="leading-[24px]">
@@ -254,7 +254,7 @@ function PText90() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] w-full">
         <p className="leading-[24px] mb-0">
-          Complete your video survey using the InstaSpect# on our SafeGuard
+          Complete your video survey using the InstaSpect# on our ShieldCove
           App. This will help us assess the damage and speed up the claim
         </p>
         <p className="leading-[24px]">process.</p>
@@ -385,7 +385,7 @@ function PSubTxt13() {
         {`Note: Be prepared beforehand: Get more information about the `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.safeguardinsurance.com/motor-insurance-claims#/claimOptions"
+          href="https://www.google.com/"
           target="_blank"
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">

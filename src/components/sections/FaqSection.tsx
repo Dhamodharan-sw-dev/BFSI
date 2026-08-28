@@ -69,7 +69,7 @@ const FAQ_CONTENT: Record<string, { question: string; answer: string }[]> = {
     },
     {
       question:
-        "Can I switch to SafeGuard Insurance at the time of renewal from another insurer?",
+        "Can I switch to ShieldCove Insurance at the time of renewal from another insurer?",
       answer:
         "Yes, you can switch insurers at renewal by providing your vehicle details, previous policy information, and no-claim bonus proof, if applicable, before your existing policy expires.",
     },

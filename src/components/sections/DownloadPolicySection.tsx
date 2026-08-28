@@ -21,7 +21,7 @@ function PText61() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] text-center">
         <p className="leading-[24px] mb-0">
-          After you buy car insurance online, SafeGuard Insurance shares the
+          After you buy car insurance online, ShieldCove Insurance shares the
           policy documents on your registered email ID and mobile number. You
           can also download them by following these
         </p>
@@ -52,7 +52,7 @@ function PText62() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] w-full">
         <p className="leading-[24px] mb-0">
-          Visit our website or download our SafeGuard
+          Visit our website or download our ShieldCove
         </p>
         <p className="leading-[24px] mb-0">
           App and log in with your registered mobile
@@ -100,7 +100,7 @@ function PText63() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] w-full">
         <p className="leading-[24px] mb-0">
-          You can see all of your SafeGuard Insurance policies in
+          You can see all of your ShieldCove Insurance policies in
         </p>
         <p className="leading-[24px]">
           the ‘My Policies’ or Policy Dashboard section.

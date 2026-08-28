@@ -19,7 +19,7 @@ function PText54() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] text-center">
         <p className="leading-[24px] mb-0">
-          SafeGuard Insurance’s Telematics Cover is a usage-based add-on
+          ShieldCove Insurance’s Telematics Cover is a usage-based add-on
           designed to help you reduce your car insurance premiums. It comes with
           two plans, Pay As You Use and Pay How
         </p>

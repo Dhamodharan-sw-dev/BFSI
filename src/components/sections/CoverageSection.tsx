@@ -28,7 +28,7 @@ function PSubTxt() {
           how you’re protected. Here are some key
         </p>
         <p className="leading-[24px]">
-          inclusions of SafeGuard Insurance car insurance:
+          inclusions of ShieldCove Insurance car insurance:
         </p>
       </div>
     </div>

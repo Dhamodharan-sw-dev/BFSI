@@ -626,7 +626,7 @@ function DivUiSubmitBtn({
               target="_blank"
             >
               <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">
-                Renew your SafeGuard Insurance policy
+                Renew your ShieldCove Insurance policy
               </p>
             </a>
           </div>
@@ -879,7 +879,7 @@ function A() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.safeguardinsurance.com/"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a"
     >
@@ -917,7 +917,7 @@ function A1() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.safeguardinsurance.com/motor-insurance"
+      href="https://www.google.com/"
       target="_blank"
       data-name="a"
     >
