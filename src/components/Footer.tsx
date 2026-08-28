@@ -100,7 +100,7 @@ function DivFooterInfo() {
 function DivFooterTopBlock() {
   return (
     <div
-      className="relative lg:absolute content-stretch flex flex-col gap-[6px] items-start mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 lg:left-[15px] pb-[40px] lg:right-[15px] lg:top-[86px]"
+      className="relative content-stretch flex flex-col gap-[6px] items-start mx-[15px] mt-[24px] pb-[40px]"
       data-name="div.footer-top-block"
     >
       <H12 />
@@ -505,7 +505,7 @@ function RightSideImageEGAppStoreOrTakeCareAppBadge() {
 function DivFooterSocialSection() {
   return (
     <div
-      className="relative lg:absolute border-[#e0e0e0] border-solid border-t content-stretch flex flex-wrap gap-[16px] items-center justify-between mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 pt-[16px] lg:left-[15px] lg:right-[15px] lg:top-[216px]"
+      className="relative border-[#e0e0e0] border-solid border-t content-stretch flex flex-wrap gap-[16px] items-center justify-between mx-[15px] mt-[24px] pt-[16px]"
       data-name="div.footer-social-section"
     >
       <SocialIconsLeftSide />
@@ -1680,7 +1680,7 @@ function DivColFooterWrapper() {
 function DivFooterAccordion() {
   return (
     <div
-      className="relative lg:absolute bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-center mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 pb-[38px] pt-[24px] lg:left-[15px] lg:right-[15px] rounded-[16px] lg:top-[290px]"
+      className="relative bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-center mx-[15px] mt-[24px] pb-[38px] pt-[24px] rounded-[16px]"
       data-name="div.footer-accordion"
     >
       <DivAccordionHeader />
@@ -1794,7 +1794,7 @@ function DivAccordionHeader1() {
 function DivFooterAccordion1() {
   return (
     <div
-      className="relative lg:absolute bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-start mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 lg:left-[15px] lg:right-[15px] rounded-[16px] lg:top-[960px]"
+      className="relative bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-start mx-[15px] mt-[24px] rounded-[16px]"
       data-name="div.footer-accordion"
     >
       <DivAccordionHeader1 />
@@ -1907,7 +1907,7 @@ function DivAccordionHeader2() {
 function DivFooterAccordion2() {
   return (
     <div
-      className="relative lg:absolute bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-start mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 lg:left-[15px] lg:right-[15px] rounded-[16px] lg:top-[1084px]"
+      className="relative bg-white content-stretch drop-shadow-[0px_3px_5px_rgba(2,2,2,0.06)] flex flex-col items-start mx-[15px] mt-[24px] rounded-[16px]"
       data-name="div.footer-accordion"
     >
       <DivAccordionHeader2 />
@@ -2008,7 +2008,7 @@ function PCopyright() {
 function DivFooterBottomBlock() {
   return (
     <div
-      className="relative lg:absolute border-[#cacaca] border-solid border-t content-stretch flex flex-col gap-[20px] items-start mx-[15px] lg:mx-0 mt-[24px] lg:mt-0 pt-[40px] lg:left-[15px] lg:right-[15px] lg:top-[1208px] pb-[24px] lg:pb-0"
+      className="relative border-[#cacaca] border-solid border-t content-stretch flex flex-col gap-[20px] items-start mx-[15px] mt-[24px] pt-[40px] pb-[24px]"
       data-name="div.footer-bottom-block"
     >
       <P8 />
