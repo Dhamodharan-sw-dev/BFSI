@@ -52,7 +52,7 @@ function PText62() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] w-full">
         <p className="leading-[24px] mb-0">
-          Visit our website or download our IL TakeCare
+          Visit our website or download our SafeGuard
         </p>
         <p className="leading-[24px] mb-0">
           App and log in with your registered mobile

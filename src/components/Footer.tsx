@@ -114,7 +114,7 @@ function AIcon() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip top-0 w-[24px]"
-      href="https://www.facebook.com/ICICILombard"
+      href="https://www.facebook.com/SafeGuardInsurance"
       target="_blank"
       data-name="a.icon"
     >
@@ -166,7 +166,7 @@ function AIcon1() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip top-0 w-[24px]"
-      href="https://www.instagram.com/icicilombardofficial"
+      href="https://www.instagram.com/safeguardinsurance"
       target="_blank"
       data-name="a.icon"
     >
@@ -248,7 +248,7 @@ function AIcon2() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://twitter.com/ICICILombard"
+      href="https://twitter.com/SafeGuardIns"
       target="_blank"
       data-name="a.icon"
     >
@@ -300,7 +300,7 @@ function AIcon3() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.youtube.com/user/ICICILombardLtd"
+      href="https://www.youtube.com/@safeguardinsurance"
       target="_blank"
       data-name="a.icon"
     >
@@ -352,7 +352,7 @@ function AIcon4() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.linkedin.com/company/icici-lombard"
+      href="https://www.linkedin.com/company/safeguard-insurance"
       target="_blank"
       data-name="a.icon"
     >

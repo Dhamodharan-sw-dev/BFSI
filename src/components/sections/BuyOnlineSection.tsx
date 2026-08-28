@@ -37,7 +37,7 @@ function PText56() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px] text-center">
         <p className="leading-[24px] mb-0">Visit SafeGuard Insurance</p>
-        <p className="leading-[24px] mb-0">Website Or IL TakeCare</p>
+        <p className="leading-[24px] mb-0">Website Or SafeGuard</p>
         <p className="leading-[24px]">App</p>
       </div>
     </div>

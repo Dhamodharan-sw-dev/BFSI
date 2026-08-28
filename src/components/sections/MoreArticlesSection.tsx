@@ -231,7 +231,7 @@ function DivBlogGrid() {
     >
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.icicilombard.com/motor-insurance/car-insurance/blogs/supreme-court-extends-third-party-insurance-for-new-vehicles"
+        href="https://www.safeguardinsurance.com/motor-insurance/car-insurance/blogs/supreme-court-extends-third-party-insurance-for-new-vehicles"
         target="_blank"
         data-name="Component 11"
       >
@@ -247,7 +247,7 @@ function DivBlogGrid() {
       </a>
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.icicilombard.com/motor-insurance/car-insurance/car-guide/blogs/auto-ev-expo-india-guide"
+        href="https://www.safeguardinsurance.com/motor-insurance/car-insurance/car-guide/blogs/auto-ev-expo-india-guide"
         target="_blank"
         data-name="Component 11"
       >
@@ -263,7 +263,7 @@ function DivBlogGrid() {
       </a>
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.icicilombard.com/motor-insurance/car-insurance/car-guide/blogs/driver-safety-awareness-essential-tips"
+        href="https://www.safeguardinsurance.com/motor-insurance/car-insurance/car-guide/blogs/driver-safety-awareness-essential-tips"
         target="_blank"
         data-name="Component 11"
       >

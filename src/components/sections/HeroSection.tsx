@@ -879,7 +879,7 @@ function A() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.icicilombard.com/"
+      href="https://www.safeguardinsurance.com/"
       target="_blank"
       data-name="a"
     >
@@ -917,7 +917,7 @@ function A1() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.icicilombard.com/motor-insurance"
+      href="https://www.safeguardinsurance.com/motor-insurance"
       target="_blank"
       data-name="a"
     >

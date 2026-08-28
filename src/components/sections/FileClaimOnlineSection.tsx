@@ -59,7 +59,7 @@ function PText82() {
           or
         </p>
         <p className="leading-[24px] mb-0">
-          through the IL TakeCare app, or by calling the toll-free number 1800
+          through the SafeGuard app, or by calling the toll-free number 1800
         </p>
         <p className="leading-[24px]">
           2666 or contacting us on WhatsApp: 7738282666.
@@ -134,7 +134,7 @@ function PText83() {
     >
       <div className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#212121] text-[16px]">
         <p className="leading-[24px] mb-0">
-          Log into our IL TakeCare App and complete your video survey
+          Log into our SafeGuard App and complete your video survey
         </p>
         <p className="leading-[24px]">using the InstaSpect# option.</p>
       </div>
@@ -287,7 +287,7 @@ function PText85() {
           You can check the status of your car insurance claim on our website
         </p>
         <p className="leading-[24px] mb-0">
-          or WhatsApp or via the IL TakeCare app using your policy number
+          or WhatsApp or via the SafeGuard app using your policy number
         </p>
         <p className="leading-[24px]">and registered mobile number.</p>
       </div>
@@ -349,17 +349,6 @@ function PSubTxt12() {
   )
 }
 
-function PSubTxtMargin() {
-  return (
-    <div
-      className="absolute bottom-0 content-stretch flex flex-col items-start justify-center left-0 pt-[25px] top-[446px]"
-      data-name="p.sub-txt:margin"
-    >
-      <PSubTxt12 />
-    </div>
-  )
-}
-
 function PClassTextAlignCenterFilingATwoWheelerInsuranceClaimIsQuickAndSimpleJustFollowTh() {
   return (
     <div
@@ -370,7 +359,6 @@ function PClassTextAlignCenterFilingATwoWheelerInsuranceClaimIsQuickAndSimpleJus
       <DivGradItem7 />
       <DivGradItem8 />
       <DivGradItem9 />
-      <PSubTxtMargin />
     </div>
   )
 }
@@ -383,6 +371,7 @@ function DivIlContainer17() {
     >
       <H2Heading19 />
       <PClassTextAlignCenterFilingATwoWheelerInsuranceClaimIsQuickAndSimpleJustFollowTh />
+      <PSubTxt12 />
     </div>
   )
 }
