@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage14 from "../../assets/f6037dd21cdc7b00cf0b0841192cf50b43b960a3.png"
 import imgImage15 from "../../assets/fb8f54c6f03eab36c2a164455da034de2c9d9440.png"
 import imgImage16 from "../../assets/ad0ee2b06ebd3197eb595c38985a49e16a22dfb5.png"
@@ -297,8 +298,7 @@ function PText44() {
         {`Besides this, you can also use our `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("car insurance premium calculator")}
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">
             car insurance premium calculator

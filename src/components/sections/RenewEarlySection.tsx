@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage30 from "../../assets/7663216cb29565f0a6ebfa204140e0c638a4af7d.png"
 function H2Heading14() {
   return (
@@ -157,8 +158,7 @@ function SpanAgreeTerms() {
         <div className="content-stretch flex flex-col items-start relative size-full">
           <a
             className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#e3530f] text-[12px]"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("Terms and Conditions")}
           >
             <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[16px] underline">
               Terms and Conditions

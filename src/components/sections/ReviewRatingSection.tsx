@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function H10() {
   return (
     <div
@@ -89,8 +90,7 @@ function DivAlignCenter1() {
           <div className="content-stretch flex items-start justify-center px-[24px] py-[13px] relative size-full">
             <a
               className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#ec6625] text-[16px] text-center"
-              href="https://www.google.com/"
-              target="_blank"
+              href={toPath("Read all reviews")}
             >
               <p className="cursor-pointer leading-[normal]">
                 Read all reviews

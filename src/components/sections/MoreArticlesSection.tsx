@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function H6() {
   return (
     <div
@@ -231,8 +232,9 @@ function DivBlogGrid() {
     >
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.google.com/"
-        target="_blank"
+        href={toPath(
+          "Supreme Court Extends Third-Party Insurance for New Vehicles",
+        )}
         data-name="Component 11"
       >
         <div className="overflow-clip rounded-[inherit] size-full">
@@ -247,8 +249,7 @@ function DivBlogGrid() {
       </a>
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.google.com/"
-        target="_blank"
+        href={toPath("Auto EV Expo India: All You Need To Know")}
         data-name="Component 11"
       >
         <div className="overflow-clip rounded-[inherit] size-full">
@@ -263,8 +264,7 @@ function DivBlogGrid() {
       </a>
       <a
         className="flex-[1_0_42px] min-w-px relative rounded-[10px]"
-        href="https://www.google.com/"
-        target="_blank"
+        href={toPath("Driver Safety Awareness: Essential Tips")}
         data-name="Component 11"
       >
         <div className="overflow-clip rounded-[inherit] size-full">
@@ -295,8 +295,7 @@ function DivReadMoreBlogWrap() {
           <div className="content-stretch flex items-start justify-center px-[24px] py-[13px] relative size-full">
             <a
               className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#ec6625] text-[16px] text-center"
-              href="https://www.google.com/"
-              target="_blank"
+              href={toPath("Read more articles")}
             >
               <p className="cursor-pointer leading-[normal]">
                 Read more articles

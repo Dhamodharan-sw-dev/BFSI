@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function H2Heading11() {
   return (
     <div
@@ -80,8 +81,7 @@ function Li17() {
         {`It is commonly known as `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624] text-[16px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Pay As You Drive Cover in Car Insurance")}
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">
             Pay As You Drive Cover in Car Insurance

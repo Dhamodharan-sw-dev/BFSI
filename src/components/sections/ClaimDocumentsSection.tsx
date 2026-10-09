@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import svgPaths from "../../assets/svg-s7akwzj1ba"
 import imgImage46 from "../../assets/a7405f6fcd6d566fd1c7e5a07724d250436ac42b.png"
 function H2Heading21() {
@@ -116,8 +117,7 @@ function PText93() {
       >
         <a
           className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] left-0 text-[#f26624] text-[16px] top-[10px] w-[84.13px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("documents")}
         >
           <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[24px] underline">
             documents

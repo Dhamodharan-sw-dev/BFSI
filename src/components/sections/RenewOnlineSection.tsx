@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage39 from "../../assets/45a6f7afa3efa83774dd70994a5e126ac4de70fd.png"
 import imgImage38 from "../../assets/fa14dcbd3ed13dd60f665365aac2a0378135bcf1.png"
 import imgImage40 from "../../assets/c5291de0b30e6c2a789f3c2217ed9e82654ffc21.png"
@@ -73,8 +74,7 @@ function PText78() {
         {`Alternatively, you can directly visit our `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("renewal")}
         >
           <span className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid underline">{`renewal `}</span>
         </a>

@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import svgPaths from "../../assets/svg-s7akwzj1ba"
 function H2Heading20() {
   return (
@@ -25,8 +26,7 @@ function PText86() {
           Accidents can be stressful, but filing a{" "}
           <a
             className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624] underline cursor-pointer"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("cashless car insurance")}
           >
             cashless car insurance
           </a>{" "}
@@ -385,8 +385,7 @@ function PSubTxt13() {
         {`Note: Be prepared beforehand: Get more information about the `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("claim process and document required")}
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">
             claim process and document required

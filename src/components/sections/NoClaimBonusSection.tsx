@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function H2Heading16() {
   return (
     <div
@@ -20,8 +21,7 @@ function PSubTxt7() {
       <p className="leading-[24px]">
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("No Claim Bonus (NCB) in Car Insurance")}
         >
           <span className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid underline">{`No Claim Bonus (NCB) in Car Insurance `}</span>
         </a>

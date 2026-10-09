@@ -31,9 +31,11 @@ import ProductDisclosureSection from "./components/sections/ProductDisclosureSec
 import DisclaimerSection from "./components/sections/DisclaimerSection"
 import Footer from "./components/Footer"
 import LoginModal from "./components/LoginModal"
+import { useInPlaceLinks } from "./lib/useInPlaceLinks"
 
 export default function App() {
   const [isLoginOpen, setIsLoginOpen] = useState(false)
+  useInPlaceLinks()
   return (
     <div
       className="bg-white content-stretch flex flex-col items-start relative size-full"

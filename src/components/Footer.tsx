@@ -1,3 +1,4 @@
+import { toPath } from "../lib/links"
 import svgPaths from "../assets/svg-s7akwzj1ba"
 import imgAppStoreBadge from "../assets/app-store-badge.png"
 import imgGooglePlayBadge from "../assets/google-play-badge.png"
@@ -114,8 +115,7 @@ function AIcon() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip top-0 w-[24px]"
-      href="https://www.google.com/"
-      target="_blank"
+      href={toPath("Facebook")}
       data-name="a.icon"
     >
       <div
@@ -248,8 +248,7 @@ function AIcon2() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.google.com/"
-      target="_blank"
+      href={toPath("X")}
       data-name="a.icon"
     >
       <div
@@ -300,8 +299,7 @@ function AIcon3() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.google.com/"
-      target="_blank"
+      href={toPath("YouTube")}
       data-name="a.icon"
     >
       <div
@@ -352,8 +350,7 @@ function AIcon4() {
   return (
     <a
       className="absolute content-stretch cursor-pointer flex items-start left-0 overflow-clip pb-[0.889px] top-0 w-[24px]"
-      href="https://www.google.com/"
-      target="_blank"
+      href={toPath("LinkedIn")}
       data-name="a.icon"
     >
       <div
@@ -628,8 +625,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Motor Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Motor Insurance
@@ -645,8 +641,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Car Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">Car Insurance</p>
               </a>
@@ -660,8 +655,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Two Wheeler Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Two Wheeler Insurance
@@ -677,8 +671,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Health Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Health Insurance
@@ -694,8 +687,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Travel Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Travel Insurance
@@ -711,8 +703,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("NRI Insurance Services")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   NRI Insurance Services
@@ -728,8 +719,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Business Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Business Insurance
@@ -745,8 +735,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Crop Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Crop Insurance
@@ -762,8 +751,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Cyber Insurance")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Cyber Insurance
@@ -779,8 +767,7 @@ function Ul13() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("ShieldCove Bharat Griha Raksha Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   ShieldCove Bharat Griha Raksha Policy
@@ -817,8 +804,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Customer Support")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Customer Support
@@ -834,8 +820,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Citizen Charter")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Citizen Charter
@@ -851,8 +836,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Retrieve Quote")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Retrieve Quote
@@ -868,8 +852,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Unclaimed Amount")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Unclaimed Amount
@@ -885,8 +868,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Intimate PA claim")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Intimate PA claim
@@ -902,8 +884,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Renew Your Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Renew Your Policy
@@ -919,8 +900,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Portability")}
               >
                 <p className="cursor-pointer leading-[normal]">Portability</p>
               </a>
@@ -934,8 +914,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("EIA")}
               >
                 <p className="cursor-pointer leading-[normal]">EIA</p>
               </a>
@@ -949,8 +928,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Online Dispute Resolution Portal for Investors")}
               >
                 <p className="leading-[normal] mb-0">
                   Online Dispute Resolution Portal
@@ -967,8 +945,7 @@ function Ul14() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("SME Endorsements")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   SME Endorsements
@@ -1005,8 +982,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Privacy Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Privacy Policy
@@ -1022,8 +998,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Insure App Privacy Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Insure App Privacy Policy
@@ -1039,8 +1014,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Product Withdrawal")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Product Withdrawal
@@ -1056,8 +1030,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Do Not Call Registry")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Do Not Call Registry
@@ -1073,8 +1046,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("General Terms & Conditions")}
               >
                 <p className="cursor-pointer leading-[normal]">{`General Terms & Conditions`}</p>
               </a>
@@ -1088,8 +1060,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Disclaimer")}
               >
                 <p className="cursor-pointer leading-[normal]">Disclaimer</p>
               </a>
@@ -1103,8 +1074,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Insurance Ombudsman")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Insurance Ombudsman
@@ -1120,8 +1090,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Stewardship Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Stewardship Policy
@@ -1137,8 +1106,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Disclosure under Stewardship Policy")}
               >
                 <p className="leading-[normal] mb-0">
                   Disclosure under Stewardship
@@ -1155,8 +1123,9 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath(
+                  "Policy for Policyholder’s Interest Protection & Grievance Redressal",
+                )}
               >
                 <p className="leading-[normal] mb-0">
                   Policy for Policyholder’s Interest
@@ -1173,8 +1142,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Advisory to Customer and Channel Partners")}
               >
                 <p className="leading-[normal] mb-0">
                   Advisory to Customer and Channel
@@ -1191,8 +1159,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("ShieldCove Insurance Product List")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   ShieldCove Insurance Product List
@@ -1208,8 +1175,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("GRO Details of Active Branches")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   GRO Details of Active Branches
@@ -1225,8 +1191,9 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath(
+                  "Motor Third Party claims - Statewise nodal officer details",
+                )}
               >
                 <p className="leading-[normal] mb-0">
                   Motor Third Party claims -
@@ -1245,8 +1212,7 @@ function Ul15() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Whistle Blower Policy")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Whistle Blower Policy
@@ -1283,8 +1249,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Overview")}
               >
                 <p className="cursor-pointer leading-[normal]">Overview</p>
               </a>
@@ -1298,8 +1263,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Promoters")}
               >
                 <p className="cursor-pointer leading-[normal]">Promoters</p>
               </a>
@@ -1313,8 +1277,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("CSR")}
               >
                 <p className="cursor-pointer leading-[normal]">CSR</p>
               </a>
@@ -1328,8 +1291,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Risk Management")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Risk Management
@@ -1345,8 +1307,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Public Disclosures")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Public Disclosures
@@ -1362,8 +1323,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Awards and Recognitions")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Awards and Recognitions
@@ -1379,8 +1339,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Investor Relations")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Investor Relations
@@ -1396,8 +1355,7 @@ function Ul16() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Media")}
               >
                 <p className="cursor-pointer leading-[normal]">Media</p>
               </a>
@@ -1432,8 +1390,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Agents’ Portal")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Agents’ Portal
@@ -1449,8 +1406,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Corporate Login")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Corporate Login
@@ -1466,8 +1422,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Blacklisted Agents")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Blacklisted Agents
@@ -1483,8 +1438,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("BAGI Blacklisted Agents")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   BAGI Blacklisted Agents
@@ -1500,8 +1454,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Distribution Channels")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Distribution Channels
@@ -1517,8 +1470,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Pradhan Mantri Suraksha Bima Yojna")}
               >
                 <p className="leading-[normal] mb-0">
                   Pradhan Mantri Suraksha Bima
@@ -1535,8 +1487,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Hospital Empanelment Criteria")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Hospital Empanelment Criteria
@@ -1552,8 +1503,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Account Aggregator")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Account Aggregator
@@ -1569,8 +1519,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("International Business (IIO)")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   International Business (IIO)
@@ -1586,8 +1535,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Sitemap")}
               >
                 <p className="cursor-pointer leading-[normal]">Sitemap</p>
               </a>
@@ -1601,8 +1549,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Become an Agent (SME)")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   Become an Agent (SME)
@@ -1618,8 +1565,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] cursor-pointer flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("Data on Health Claim Service Indicators")}
               >
                 <p className="leading-[normal] mb-0">
                   Data on Health Claim Service
@@ -1636,8 +1582,7 @@ function Ul17() {
             <div className="content-stretch flex items-start relative size-full">
               <a
                 className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] min-w-px relative text-[#333] text-[14px]"
-                href="https://www.google.com/"
-                target="_blank"
+                href={toPath("IRDAI List of Blacklisted Agents")}
               >
                 <p className="cursor-pointer leading-[normal]">
                   IRDAI List of Blacklisted Agents
@@ -1977,8 +1922,7 @@ function PCopyright() {
       <div className="content-stretch flex gap-[16px] items-center relative shrink-0">
         <a
           className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#757575] text-[13px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Privacy Policy")}
         >
           <p className="cursor-pointer leading-[20px] underline">
             Privacy Policy
@@ -1986,8 +1930,7 @@ function PCopyright() {
         </a>
         <a
           className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#757575] text-[13px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Terms of Use")}
         >
           <p className="cursor-pointer leading-[20px] underline">
             Terms of Use
@@ -1995,8 +1938,7 @@ function PCopyright() {
         </a>
         <a
           className="[word-break:break-word] flex flex-col font-['Mulish:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#757575] text-[13px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Sitemap")}
         >
           <p className="cursor-pointer leading-[20px] underline">Sitemap</p>
         </a>

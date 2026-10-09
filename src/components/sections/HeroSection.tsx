@@ -1,3 +1,4 @@
+import { HOME, toPath } from "../../lib/links"
 import { useState } from "react"
 import svgPaths from "../../assets/svg-s7akwzj1ba"
 import imgCarInsuranceInsureYourCarBeHappy from "../../assets/121893f473152f0976a664f89927493e3141feed.png"
@@ -622,8 +623,7 @@ function DivUiSubmitBtn({
           <div className="content-stretch flex flex-col items-center py-[15px] relative size-full">
             <a
               className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#005dac] text-[14px] text-center"
-              href="https://www.google.com/"
-              target="_blank"
+              href={toPath("Renew your ShieldCove Insurance policy")}
             >
               <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">
                 Renew your ShieldCove Insurance policy
@@ -640,8 +640,7 @@ function DivUiSubmitBtn({
         <div className="content-stretch flex items-start relative size-full">
           <a
             className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#ec6625] text-[16px]"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("Retrieve quote")}
           >
             <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[18px] underline">
               Retrieve quote
@@ -682,8 +681,7 @@ function SpanAgrTxt() {
       >
         <a
           className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Mulish:Medium',sans-serif] font-medium justify-center leading-[0] left-0 text-[#282828] text-[13px] top-[8px] w-[127.194px]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("terms and conditions")}
         >
           <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[20px] underline">
             terms and conditions
@@ -879,8 +877,7 @@ function A() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.google.com/"
-      target="_blank"
+      href={HOME}
       data-name="a"
     >
       <div
@@ -917,8 +914,7 @@ function A1() {
   return (
     <a
       className="content-stretch cursor-pointer flex items-start relative shrink-0"
-      href="https://www.google.com/"
-      target="_blank"
+      href={toPath("Motor Insurance")}
       data-name="a"
     >
       <div

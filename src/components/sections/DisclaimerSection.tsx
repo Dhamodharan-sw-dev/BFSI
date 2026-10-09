@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function DivDisclaimerContent() {
   return (
     <div
@@ -8,8 +9,7 @@ function DivDisclaimerContent() {
         <div className="content-stretch flex items-start relative size-full">
           <a
             className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#ec6608] text-[13px]"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("Disclaimers")}
           >
             <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[21px] underline">
               Disclaimers

@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage3 from "../../assets/8a84316344690aedb7f2d17c408a60a45f9ee898.png"
 import imgImage54 from "../../assets/53cebf04ce7b21571cdab5bf2835ad041862b622.png"
 import imgImage55 from "../../assets/3c0b158b35cc368520463848c932f8956ed2b9dd.png"
@@ -66,8 +67,7 @@ function PText9() {
           passengers and other vehicles. A{" "}
           <a
             className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624] underline cursor-pointer"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("third-party car insurance")}
           >
             third-party car insurance
           </a>{" "}

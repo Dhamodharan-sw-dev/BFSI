@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage42 from "../../assets/2614db9ad531b773c904a5c047e9d4fbf8aca4a9.png"
 import imgImage43 from "../../assets/bb08a33d32668d302deb0e593b100fa69667903e.png"
 import imgImage44 from "../../assets/0462bee1c05ff102ee862144454bb4a58d8d4b0b.png"
@@ -336,8 +337,7 @@ function PSubTxt12() {
         {`Note: Be prepared beforehand: Get more information about the `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("claim process and document required")}
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">
             claim process and document required

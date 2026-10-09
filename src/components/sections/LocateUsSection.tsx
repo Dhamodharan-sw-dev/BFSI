@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import svgPaths from "../../assets/svg-s7akwzj1ba"
 import imgSpanIconMap from "../../assets/f196061af42f3e5fedeb3be61691d3c0c8dd94a5.png"
 import imgBefore1 from "../../assets/c0e4c2de229a05748f67ae0146d986d0d6ecd280.png"
@@ -79,8 +80,7 @@ function DivSearchItem() {
         <div className="content-stretch flex flex-col items-start pr-[15px] pt-[23px] relative size-full">
           <a
             className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#fe6625] text-[12px] tracking-[0.5px]"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("Find garage")}
           >
             <p className="cursor-pointer leading-[normal]">Find garage</p>
           </a>
@@ -305,8 +305,7 @@ function DivDoorstepBlock() {
         <div className="content-stretch flex items-start relative size-full">
           <a
             className="[word-break:break-word] flex flex-col font-['Mulish:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[14px] text-white"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("Know more")}
           >
             <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[18px] underline">
               Know more

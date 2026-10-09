@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import svgPaths from "../../assets/svg-s7akwzj1ba"
 import imgImage8 from "../../assets/5301a2c400d56fce57868c9663ed106aa7183a24.png"
 import imgImage9 from "../../assets/dde7ffc3d3b4efd2fea826bbd4c0cc48a5783a48.png"
@@ -70,8 +71,7 @@ function PText21() {
           consider own damage or{" "}
           <a
             className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624] underline cursor-pointer"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath("comprehensive car insurance")}
           >
             comprehensive car insurance
           </a>{" "}
@@ -664,8 +664,7 @@ function PText29() {
         {`Check whether the insurer has a vast network of `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("cashless garages")}
         >
           <span className="cursor-pointer decoration-from-font decoration-solid underline">
             cashless garages

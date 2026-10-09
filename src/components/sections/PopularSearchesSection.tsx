@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 import imgImage53 from "../../assets/50ea34f828a99f53784aa6e9928a01fbec6abaf7.png"
 const POPULAR_SEARCH_TERMS = [
   "Health Insurance",
@@ -36,8 +37,7 @@ function DivContBlock2() {
           <a
             key={label}
             className="[word-break:break-word] bg-white flex flex-col font-['Mulish:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[12px] text-black rounded-[100px] px-[15px] py-[8px]"
-            href="https://www.google.com/"
-            target="_blank"
+            href={toPath(label)}
           >
             <p className="cursor-pointer leading-[15px]">{label}</p>
           </a>

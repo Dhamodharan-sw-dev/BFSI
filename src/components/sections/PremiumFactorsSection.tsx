@@ -1,3 +1,4 @@
+import { toPath } from "../../lib/links"
 function H2Heading6() {
   return (
     <div
@@ -21,8 +22,7 @@ function PSubTxt2() {
         {`The `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Insured's Declared Value (IDV) in car insurance")}
         >
           <span className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid underline">
             Insured's Declared Value (IDV) in car insurance
@@ -821,8 +821,7 @@ function PText40() {
         {`You can opt for optional covers like `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Zero Depreciation Cover in Car Insurance")}
         >
           <span className="decoration-from-font decoration-solid underline cursor-pointer">
             Zero Depreciation Cover in Car Insurance
@@ -831,8 +830,7 @@ function PText40() {
         {`, `}
         <a
           className="font-['Mulish:Bold',sans-serif] font-bold text-[#f26624]"
-          href="https://www.google.com/"
-          target="_blank"
+          href={toPath("Engine Protect Cover in Car Insurance")}
         >
           <span className="decoration-from-font decoration-solid underline cursor-pointer">
             Engine Protect Cover in Car Insurance
